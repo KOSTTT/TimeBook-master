@@ -30,6 +30,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="25dp"
+                android:fontFamily="@font/arnamu"
                 android:text="Разработчики:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -39,6 +40,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
                 android:layout_marginLeft="15dp"
+                android:fontFamily="@font/arnamu"
                 android:layout_marginRight="15dp"
                 android:text="@string/developer"
                 android:textColor="#000000"
@@ -50,6 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="40dp"
                 android:layout_marginTop="20dp"
+                android:fontFamily="@font/arnamu"
                 android:text="Описание приложения:"
                 android:textColor="#000000"
                 android:textSize="20sp" />
@@ -58,6 +61,7 @@
                 android:id="@+id/tvDescripDescrip"
                 android:layout_width="match_parent"
                 android:layout_height="160dp"
+                android:fontFamily="@font/arnamu"
                 android:layout_marginLeft="15dp"
                 android:layout_marginRight="15dp"
                 android:text="@string/desc_about"

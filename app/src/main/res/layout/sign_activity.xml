@@ -24,12 +24,14 @@
             android:id="@+id/tvSign"
             android:layout_width="match_parent"
             android:layout_height="80dp"
+            android:fontFamily="@font/arnamu"
             android:text="Вход"
             android:textColor="#000000"
             android:textSize="24sp" />
 
         <TextView
             android:id="@+id/tvEmail"
+            android:fontFamily="@font/arnamu"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Email"
@@ -37,6 +39,7 @@
 
         <EditText
             android:id="@+id/edEmail"
+            android:fontFamily="@font/arnamu"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:ems="10"
@@ -45,6 +48,7 @@
 
         <TextView
             android:id="@+id/tvPassword"
+            android:fontFamily="@font/arnamu"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:gravity="bottom"
@@ -53,6 +57,7 @@
 
         <EditText
             android:id="@+id/edPassword"
+            android:fontFamily="@font/arnamu"
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:ems="10"
@@ -61,6 +66,7 @@
 
         <TextView
             android:id="@+id/tvRegist"
+            android:fontFamily="@font/arnamu"
             android:layout_width="match_parent"
             android:layout_height="48dp"
             android:clickable="true"
@@ -72,6 +78,7 @@
         <Button
             android:id="@+id/btnSign"
             android:layout_width="100dp"
+            android:fontFamily="@font/arnamu"
             android:layout_height="wrap_content"
             android:onClick="auth"
             android:text="Войти"

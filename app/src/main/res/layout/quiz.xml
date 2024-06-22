@@ -40,7 +40,7 @@
             android:layout_gravity="center"
             android:layout_weight="1"
             android:clickable="true"
-            android:fontFamily="@font/alegreya"
+            android:fontFamily="@font/arnamu"
             android:gravity="center"
             android:onClick="toLessonsPage"
             android:paddingRight="20dp"
@@ -71,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:clickable="true"
-            android:fontFamily="@font/alegreya"
+            android:fontFamily="@font/arnamu"
             android:gravity="center|top"
             android:onClick="toLessonsPage"
             android:paddingTop="20dp"
@@ -80,24 +80,28 @@
             android:textSize="18sp"
             android:textColor="#656363" />
 
-       <Button
-           android:id="@+id/yes"
-           android:layout_width="match_parent"
-           android:layout_height="50dp"
-           android:layout_marginTop="370dp"
-           android:text="ДА"
-           android:textColor="#000"
-           android:onClick="getAnswer"/>
+        <Button
+            android:id="@+id/yes"
+            android:layout_width="290dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="370dp"
+            android:onClick="getAnswer"
+            android:fontFamily="@font/arnamu"
+            android:text="ДА"
+            android:textColor="#000" />
 
 
         <Button
             android:id="@+id/no"
-            android:layout_width="match_parent"
+            android:layout_width="290dp"
             android:layout_height="50dp"
+            android:fontFamily="@font/arnamu"
+            android:layout_gravity="center"
             android:layout_marginTop="10dp"
+            android:onClick="getAnswer"
             android:text="Нет"
-            android:textColor="#000"
-            android:onClick="getAnswer"/>
+            android:textColor="#000" />
 
 
     </LinearLayout>

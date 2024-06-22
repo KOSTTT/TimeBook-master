@@ -27,6 +27,7 @@
         android:textAllCaps="false"
         android:textColor="#000000"
         android:textSize="20sp"
+        android:fontFamily="@font/arnamu"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

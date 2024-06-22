@@ -6,10 +6,12 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_profile"
+            android:fontFamily="@font/arnamu"
             android:icon="@drawable/baseline_account_circle_24"
             android:title="@string/menu_profile" />
         <item
             android:id="@+id/nav_lessons"
+            android:fontFamily="@font/arnamu"
             android:icon="@drawable/baseline_menu_book_24"
             android:title="@string/menu_lessons" />
     </group>
@@ -17,6 +19,7 @@
         <menu>
             <item
                 android:id="@+id/nav_about"
+                android:fontFamily="@font/arnamu"
                 android:icon="@drawable/baseline_info_24"
                 android:title="@string/menu_about" />
         </menu>
